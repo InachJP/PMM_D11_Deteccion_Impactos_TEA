@@ -112,9 +112,9 @@ def transform_point_3d_to_2d(calibration, point_3d, source_camera=_k4a.K4A_CALIB
 # Inicialización del EKF
 def initialize_ekf():
     state = np.zeros(6)  # [x, y, z, vx, vy, vz]
-    P = np.eye(6) * 0.1  # Covarianza inicial
-    Q = np.eye(6) * 0.1  # Ruido del proceso
-    R = np.eye(3) * 0.05  # Ruido de observación
+    P = np.eye(6) * 10  # Covarianza inicial
+    Q = np.eye(6) * 1  # Ruido del proceso
+    R = np.eye(3) * 1  # Ruido de observación
     return state, P, Q, R
 
 def fx(state, dt):
@@ -147,7 +147,7 @@ def ekf_predict(state, P, Q, dt):
     P = F @ P @ F.T + Q
     return state, P
 
-def ekf_update(state, P, z, R):
+def ekf_update(state, P, z, R): # Convertir coordenadas de milímetros a metros
     H = jacobian_H(state)
     y = z - hx(state)  # Residual
     S = H @ P @ H.T + R  # Covarianza de innovación
