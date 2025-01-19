@@ -1,6 +1,6 @@
 # **Programa de Memoria Multidisciplinaria USM Desafío N11 Deteccion Impactos TEA**
 
-> Este proyecto tiene como objetivo analizar y evaluar técnicas de detección de impactos y movimientos a partir de videos utilizando Kinect. A través de la captura de datos de la posición 3D de la mano y los puntos faciales, se calcula la velocidad y se detectan los impactos en función de la proximidad entre la mano y la cara. Se emplean distintas configuraciones de iluminación (natural y artificial) y se comparan los resultados obtenidos al utilizar o no un filtro de Kalman extendido (EKF), con el fin de mejorar la precisión y fiabilidad de las mediciones. 
+> Este proyecto tiene como objetivo analizar y evaluar técnicas de detección de impactos y movimientos a partir de videos utilizando Kinect. Se captura la posición 3D de la mano y los puntos faciales para calcular la velocidad de los movimientos y detectar los impactos en función de la proximidad entre la mano y la cara. Se emplean diferentes configuraciones de iluminación, tanto natural como artificial, y se comparan los resultados obtenidos al utilizar o no un filtro de Kalman extendido (EKF), con el propósito de mejorar la precisión y fiabilidad de las mediciones.
 
 ---
 
@@ -17,7 +17,7 @@
 
 ### Descripción del Proyecto
 
-> El objetivo final de este proyecto es desarrollar un software o aplicación en un contexto médico donde especificamente neurologos puedan en sus citas con pacientes susceptibles al trastorno espectro autista medir el impacto de golpes involuntarios e inclusive poder encontrar una relación de los datos que pueda contribuir respecto a que nivel del espectro diagnosticar al paciente. Por lo tanto se desarrollara una interfaz amigable donde el especialista pueda obtener un reporte como por ejemplo de la fuerza ejercida por cada una de los golpes.
+>El objetivo final de este proyecto es desarrollar un software o aplicación en un contexto médico, específicamente para que los neurólogos puedan, durante sus citas con pacientes susceptibles al trastorno del espectro autista, medir el impacto de los golpes involuntarios. Además, el sistema permitirá encontrar una relación entre los datos recopilados que pueda contribuir en el diagnóstico sobre el nivel del espectro en el que se encuentra el paciente. Para ello, se desarrollará una interfaz amigable que permitirá al especialista obtener reportes detallados, como la fuerza ejercida en cada uno de los golpes.
 ---
 
 ## **Características**
