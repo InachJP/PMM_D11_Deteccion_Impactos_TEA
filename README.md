@@ -9,7 +9,7 @@
 1. [Introducción](#introducción)
 2. [Características](#características)
 3. [Instalación](#instalación)
-4. [Uso](#uso)
+4. [Instrucciones de instalación](#Instrucciones de instalación)
 
 ---
 
