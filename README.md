@@ -12,6 +12,7 @@
 4. [Uso](#uso)
 5. [Estructura del Proyecto](#estructura_del_proyecto)
 6. [Cómo Funciona](#cómo_Funciona)
+7. [Resultados Mediciones](#resultados_mediciones)
 ---
 
 ## **Introducción**
@@ -102,3 +103,5 @@ nombre-del-repositorio/
 ├── impact_data.json                                           # Archivo de resultados generados
 └── README.md                       
 ```
+## **Resultados Mediciones**
+[Enlace resultados](https://usmcl-my.sharepoint.com/:f:/g/personal/jonathan_pedraza_usm_cl/Eh41hIklhihFjHqmEK4RTAcBaJb0hIz6LDjaoa4LvAC2zQ?e=3Pc2Vq)
