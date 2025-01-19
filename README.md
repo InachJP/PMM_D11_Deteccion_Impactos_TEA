@@ -10,7 +10,9 @@
 2. [Características](#características)
 3. [Instalación](#instalación)
 4. [Uso](#uso)
-
+5. [Estructura del Proyecto](#estructura_del_proyecto)
+6. [Cómo Funciona](#cómo_Funciona)
+7. [Resultados Mediciones](#resultados_mediciones)
 ---
 
 ## **Introducción**
@@ -56,14 +58,15 @@ Azure Kinect SDK is a cross platform (Linux and Windows) user mode SDK to read d
 
 Es necesario un entorno virtual con una versión de Python en 3.9 dado que la biblioteca de la API del soporte del SDK en Python de la Azure Kinect DK exista hasta esta versión.
 
-Puedes instalar las dependencias necesarias utilizando `pip`. Aquí un ejemplo:
+Para instalar las dependencias necesarias utilizando `pip`. Aquí un ejemplo:
 
 ```bash
 pip install -r requirements.txt
 ```
 
 ## **Instrucciones de instalación**
-1.Clona este repositorio en tu máquina local:
+
+1. Clona este repositorio en tu máquina local:
 
 ```bash
 git clone https://github.com/InachJP/PMM_D11_Deteccion_Impactos_TEA.git
@@ -73,7 +76,32 @@ git clone https://github.com/InachJP/PMM_D11_Deteccion_Impactos_TEA.git
 ```bash
 cd PMM_D11_Deteccion_Impactos_TEA
 ```
+
 3. Instala las dependencias:
+
 ```bash
 pip install -r requirements.txt
 ```
+
+## **Uso**
+
+```bash
+python prototipo_calculovelocidad.py
+```
+
+## **Estructura del Proyecto**
+
+```bash
+nombre-del-repositorio/
+│── aplicaciones/                                               #Directorio con todos los modulos y programas principales (grabar, playback, utils, prototipov3, etc)
+├── capturas_impactos/                                         # Directorio donde se guardan las imágenes de los impactos
+├── videos/                                                     # Videos de entrada para el análisis
+│
+├── utils1.py                                                  # Funciones auxiliares para el procesamiento
+├── prototipo_calculavelocidad_v{x}.py                       # Script principal de ejecución
+├── requirements.txt                                           # Dependencias del proyecto
+├── impact_data.json                                           # Archivo de resultados generados
+└── README.md                       
+```
+## **Resultados Mediciones**
+[Enlace resultados](https://usmcl-my.sharepoint.com/:f:/g/personal/jonathan_pedraza_usm_cl/Eh41hIklhihFjHqmEK4RTAcBaJb0hIz6LDjaoa4LvAC2zQ?e=3Pc2Vq)
