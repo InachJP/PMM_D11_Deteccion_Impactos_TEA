@@ -62,7 +62,8 @@ pip install -r requirements.txt
 ```
 
 ## **Instrucciones de instalación**
-1.Clona este repositorio en tu máquina local:
+
+1. Clona este repositorio en tu máquina local:
 
 ```bash
 git clone https://github.com/InachJP/PMM_D11_Deteccion_Impactos_TEA.git
