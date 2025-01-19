@@ -58,7 +58,7 @@ Azure Kinect SDK is a cross platform (Linux and Windows) user mode SDK to read d
 
 Es necesario un entorno virtual con una versión de Python en 3.9 dado que la biblioteca de la API del soporte del SDK en Python de la Azure Kinect DK exista hasta esta versión.
 
-Puedes instalar las dependencias necesarias utilizando `pip`. Aquí un ejemplo:
+Para instalar las dependencias necesarias utilizando `pip`. Aquí un ejemplo:
 
 ```bash
 pip install -r requirements.txt
@@ -93,7 +93,7 @@ python prototipo_calculovelocidad.py
 
 ```bash
 nombre-del-repositorio/
-│
+│── aplicaciones/                                               #Directorio con todos los modulos y programas principales (grabar, playback, utils, prototipov3, etc)
 ├── capturas_impactos/                                         # Directorio donde se guardan las imágenes de los impactos
 ├── videos/                                                     # Videos de entrada para el análisis
 │
