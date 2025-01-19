@@ -88,7 +88,7 @@ pip install -r requirements.txt
 python prototipo_calculovelocidad.py
 ```
 
-## **Estructura del Proyecto
+## **Estructura del Proyecto**
 
 ```bash
 nombre-del-repositorio/
