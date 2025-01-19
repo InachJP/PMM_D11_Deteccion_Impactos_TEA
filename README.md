@@ -9,7 +9,9 @@
 1. [Introducción](#introducción)
 2. [Características](#características)
 3. [Instalación](#instalación)
-
+4. [Uso](#uso)
+5. [Estructura del Proyecto](#estructura_del_proyecto)
+6. [Cómo Funciona](#cómo_Funciona)
 ---
 
 ## **Introducción**
@@ -73,7 +75,30 @@ git clone https://github.com/InachJP/PMM_D11_Deteccion_Impactos_TEA.git
 ```bash
 cd PMM_D11_Deteccion_Impactos_TEA
 ```
+
 3. Instala las dependencias:
+
 ```bash
 pip install -r requirements.txt
+```
+
+## **Uso**
+
+```bash
+python prototipo_calculovelocidad.py
+```
+
+## **Estructura del Proyecto
+
+```bash
+nombre-del-repositorio/
+│
+├── capturas_impactos/                                         # Directorio donde se guardan las imágenes de los impactos
+├── videos/                                                     # Videos de entrada para el análisis
+│
+├── utils1.py                                                  # Funciones auxiliares para el procesamiento
+├── prototipo_calculavelocidad_v{x}.py                       # Script principal de ejecución
+├── requirements.txt                                           # Dependencias del proyecto
+├── impact_data.json                                           # Archivo de resultados generados
+└── README.md                       
 ```
